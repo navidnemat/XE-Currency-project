@@ -1,9 +1,8 @@
 'use client'
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { LiaTelegram } from "react-icons/lia";
-import styles from '../testpage/XeDropdown.module.css'
 import { GoBell } from "react-icons/go";
 import { BsBuilding } from "react-icons/bs";
 import { IoMenu } from "react-icons/io5";
