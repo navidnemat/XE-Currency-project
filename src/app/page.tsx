@@ -195,18 +195,21 @@ export default function Home() {
                 </div>
                 <div className="min-h-[384px] relative text-gray-700">
                   <div className="flex items-center transition-transform [&>div]:even:bg-gray-150 group odd:has-[.currency-button:hover]:bg-inherit even:has-[.currency-button:hover]:bg-[#eceff2]">
-                    <div className="flex h-24 w-full items-center first:border-t-0 rounded-xl">
-                      <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
-                        <div className="flex items-center gap-4 text-left font-semibold">
-                          <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
-                            <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/eur.static.svg" />
+                    <div className="flex h-24 justify-between w-full items-center first:border-t-0 rounded-xl">
+                      <div className="flex flex-col md:flex-row h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                        <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                          <div className="flex items-center gap-4 text-left font-semibold">
+                            <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
+                              <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/eur.static.svg" />
+                            </div>
+                            یورو
                           </div>
-                          یورو
+                        </button>
+                        <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
+                          <div>0.84928</div>
                         </div>
-                      </button>
-                      <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
-                        <div>0.84928</div>
                       </div>
+
                       <div className="basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6 hidden md:flex">
                         <div className="rounded-md p-2 text-base bg-[#FFE1DE] text-red-900">
                           <div>-0.0063%</div>
@@ -227,18 +230,21 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-center transition-transform [&>div]:even:bg-gray-150 group odd:has-[.currency-button:hover]:bg-inherit even:has-[.currency-button:hover]:bg-[#eceff2]">
-                    <div style={{ backgroundColor: 'rgb(247, 248, 249) !important' }} className="flex h-24 w-full items-center first:border-t-0 rounded-xl">
-                      <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
-                        <div className="flex items-center gap-4 text-left font-semibold">
-                          <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
-                            <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/gbp.static.svg" />
+                    <div style={{ backgroundColor: 'rgb(247, 248, 249) !important' }} className="flex h-24 w-full justify-between items-center first:border-t-0 rounded-xl">
+                      <div className="flex text-sm md:text-md flex-col md:flex-row h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                        <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                          <div className="flex items-center gap-4 text-left font-semibold">
+                            <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
+                              <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/gbp.static.svg" />
+                            </div>
+                            پوند بریتانیا
                           </div>
-                          پوند بریتانیا
+                        </button>
+                        <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
+                          <div>0.73253</div>
                         </div>
-                      </button>
-                      <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
-                        <div>0.73253</div>
                       </div>
+
                       <div className="basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6 hidden md:flex">
                         <div className="rounded-md p-2 text-base bg-[#FFE1DE] text-red-900">
                           <div>-0.034%</div>
@@ -257,18 +263,21 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-center transition-transform [&>div]:even:bg-gray-150 group odd:has-[.currency-button:hover]:bg-inherit even:has-[.currency-button:hover]:bg-[#eceff2]">
-                    <div className="flex h-24 w-full items-center first:border-t-0 rounded-xl">
-                      <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
-                        <div className="flex items-center gap-4 text-left font-semibold">
-                          <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
-                            <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/cad.static.svg" />
+                    <div className="flex justify-between h-24 w-full items-center first:border-t-0 rounded-xl">
+                      <div className="flex flex-col md:text-md text-sm md:flex-row h-full basis-1/4 items-center rounded-lg border-none bg-none md:basis-2/6 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                        <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                          <div className="flex items-center gap-4 text-left font-semibold">
+                            <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
+                              <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/cad.static.svg" />
+                            </div>
+                            دلار کانادا
                           </div>
-                          دلار کانادا
+                        </button>
+                        <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
+                          <div>1.3604</div>
                         </div>
-                      </button>
-                      <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
-                        <div>1.3604</div>
                       </div>
+
                       <div className="basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6 hidden md:flex">
                         <div className="rounded-md p-2 text-base bg-[#DEF7E8] text-green-800">
                           <div>+0.095%</div>
@@ -286,9 +295,10 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex items-center transition-transform [&>div]:even:bg-gray-150 group odd:has-[.currency-button:hover]:bg-inherit even:has-[.currency-button:hover]:bg-[#eceff2]">
-                    <div style={{ backgroundColor: 'rgb(247, 248, 249) !important' }} className="flex h-24 w-full items-center first:border-t-0 rounded-xl">
-                      <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                  <div className="flex items-center  transition-transform [&>div]:even:bg-gray-150 group odd:has-[.currency-button:hover]:bg-inherit even:has-[.currency-button:hover]:bg-[#eceff2]">
+                    <div style={{ backgroundColor: 'rgb(247, 248, 249) !important' }} className="flex justify-between h-24 w-full items-center first:border-t-0 rounded-xl">
+                      <div className="flex flex-col md:text-md text-sm md:flex-row h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
+                        <button className="flex h-full basis-1/4 items-center rounded-lg border-none bg-none p-2 md:basis-2/6 md:p-4 [&:not(:disabled)]:hover:bg-[#d9dbe0]">
                         <div className="flex items-center gap-4 text-left font-semibold">
                           <div className="relative ms-2 border border-[#00113326] !h-6 !w-6 overflow-hidden rounded-full border-none [&_img]:!scale-[1.4]">
                             <img className="absolute w-full h-full inset-0 text-transparent" src="https://www.xe.com/svgs/flags/jpy.static.svg" />
@@ -299,6 +309,8 @@ export default function Home() {
                       <div className="flex basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6">
                         <div>144.47</div>
                       </div>
+                      </div>
+                      
                       <div className="basis-1/4 px-2 py-4 font-semibold first:pe-4 last:ps-4 md:basis-1/6 md:first:basis-2/6 hidden md:flex">
                         <div className="rounded-md p-2 text-base bg-[#DEF7E8] text-green-800">
                           <div>+0.08%</div>
@@ -330,7 +342,7 @@ export default function Home() {
         <div className="bg-white py-16">
           <div className="m-auto max-w-screen-xl px-4 md:px-10 ">
             <div className="grid gap-3">
-              <h2 className="text-center text-4xl text-gray-800 font-bold">نحوه ارسال پول آنلاین با Xe</h2>
+              <h2 className="text-center text-3xl md:text-4xl text-gray-800 font-bold">نحوه ارسال پول آنلاین با Xe</h2>
             </div>
             <div className="mt-16 grid w-full grid-cols-1 gap-6 md:grid-cols-3">
               <div className="grid w-full content-baseline gap-16 rounded-3xl bg-gray-100 px-12 py-16">
@@ -406,7 +418,7 @@ export default function Home() {
           <div className="max-w-screen-xl px-4 md:px-10">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               <div className="flex flex-col items-center gap-4 md:items-start md:gap-6">
-                <h3 className="text-white text-3xl">
+                <h3 className="text-white text-2xl md:text-3xl">
                   <div>با اپلیکیشن Xe، ارزهای خود را در حال حرکت مدیریت کنید</div>
                 </h3>
                 <div className="text-gray-300">
@@ -432,7 +444,7 @@ export default function Home() {
         <section className="flex justify-center bg-white py-20 ">
           <div className="flex w-full max-w-screen-xl flex-col gap-16 px-4 md:px-10">
             <div className="grid gap-3">
-              <h2 className="text-center text-5xl font-bold text-gray-900">
+              <h2 className="text-center text-4xl md:text-5xl font-bold text-gray-900">
                 <div>ابزارهای ارزی Xe</div>
               </h2>
               <h3 className="text-center md:text-xl text-gray-500">
