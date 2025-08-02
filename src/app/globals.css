@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: vazirLight;
+  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot');
+  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot?#iefix') format('FontName-opentype'),
+    url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff') format('woff'),
+    url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: vazir;
+  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.eot');
+  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.eot') format('FontName-opentype'),
+    url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.woff') format('woff'),
+    url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: vazirLight, Arial, Helvetica, sans-serif;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  z-index: 60;
+  min-width: 160px;
 }
